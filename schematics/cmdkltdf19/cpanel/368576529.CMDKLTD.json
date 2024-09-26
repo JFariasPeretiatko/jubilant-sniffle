@@ -1,0 +1,28 @@
+{
+    "description": "Show users",
+    "configurable": "N",
+    "query": "select ds_login from subject;",
+    "columns": [
+        {
+            "labelExpressionCode": 304915,
+            "sensitive": false,
+            "configurableType": "N",
+            "indexOf": 0,
+            "layout": "T",
+            "userCanConfig": true,
+            "nrSequencia": 368601657,
+            "ieVisible": true,
+            "qtLargura": 300,
+            "ordem": 1,
+            "ieUnidLargura": "PX",
+            "nmCampoBase": "DS_LOGIN",
+            "labelColuna": "Login",
+            "ieReadOnly": true,
+            "tipoColuna": "Varchar",
+            "tipoTotalizador": "N",
+            "componente": "ed",
+            "ieTotalizar": false,
+            "inlineComponente": "ed"
+        }
+    ]
+}
