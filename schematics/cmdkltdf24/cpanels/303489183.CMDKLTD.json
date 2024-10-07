@@ -1,0 +1,34 @@
+{
+  "identifier" : "CMDKLTD",
+  "migrations" : [ {
+    "op" : "replace",
+    "path" : "/",
+    "value" : {
+      "columns" : [ {
+        "componente" : "TEXTBOX",
+        "configurableType" : "N",
+        "ieReadOnly" : true,
+        "ieTotalizar" : false,
+        "ieUnidLargura" : "PX",
+        "ieVisible" : true,
+        "indexOf" : 0,
+        "inlineComponente" : "ed",
+        "labelColuna" : "Test9999999",
+        "labelExpressionCode" : 1,
+        "layout" : "T",
+        "nmCampoBase" : "DS_LOGIN",
+        "nrSequencia" : 303502063,
+        "ordem" : 1,
+        "qtLargura" : 300,
+        "sensitive" : false,
+        "tipoColuna" : "Varchar",
+        "tipoTotalizador" : "N",
+        "userCanConfig" : true
+      } ],
+      "configurable" : "N",
+      "description" : "Test",
+      "query" : "select ds_login from subject;"
+    }
+  } ],
+  "type" : "PARTNER"
+}
